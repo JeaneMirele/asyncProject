@@ -1,0 +1,12 @@
+type Mutation {
+    solicitarRelatorio(request: RelatorioRequestInput!): String!
+}
+
+input RelatorioRequestInput {
+    usuario: String!
+    tipoRelatorio: String!
+}
+
+type Query {
+    ping: String
+}
