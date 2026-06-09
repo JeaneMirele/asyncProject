@@ -8,5 +8,5 @@ input RelatorioRequestInput {
 }
 
 type Query {
-    ping: String
+    consultarStatus(protocolo: String!): String!
 }
